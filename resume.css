@@ -1,0 +1,31 @@
+.mid{
+    display: block;
+    margin: auto;
+}
+.disp img{
+    width:100%;
+    height: 300px;
+}
+.effect{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.overlay_work{
+    width: 100%;
+    height: 100%;
+    top: .1px;
+    opacity: .7;
+    text-align: center;
+    position: absolute;
+    transition:.5 ease;
+    display: none;
+}
+.overlay_work a{
+    position: relative;
+    top: 43%;
+}
+.effect:hover .overlay_work{
+    display: block;
+    background-color: rgba(175, 154, 154, 0.404);
+}
